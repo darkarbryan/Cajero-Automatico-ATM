@@ -1,3 +1,5 @@
+//Autor Darkarbryan
+
 #include <iostream>
 #include <conio.h>
 #include <windows.h>
@@ -94,7 +96,7 @@ int menu(int res, int ret, int fondos, int lim, int id, string nom, string ape, 
 		
 		case 1:
 			
-			cout<<"\n\t\t¿Que transaccion desea realizar?\n"<<endl;
+			cout<<"\n\t\tÂ¿Que transaccion desea realizar?\n"<<endl;
 			cout<<" \n";
 			cout<<"1. RETIRAR EFECTIVO  	\t2. REALIZAR GIRO\n"<<endl;
 			cout<<"\n\t\t\t";cin>>res;
@@ -174,7 +176,7 @@ int menu(int res, int ret, int fondos, int lim, int id, string nom, string ape, 
 		case 2:
 			
 			system("CLS");
-			cout<<"\n\t\t¿Que transaccion desea realizar?\n"<<endl;
+			cout<<"\n\t\tÂ¿Que transaccion desea realizar?\n"<<endl;
 			cout<<"\n";
 			cout<<"1. RETIRAR EFECTIVO  	\t2. CONSULTAR SALDO\n"<<endl;
 			cin>>res;
@@ -223,7 +225,7 @@ int main(){
 	string ape;
 	string erroneo="\nDato ingresado no valido.\nHemos terminado. HASTA PRONTO";
 	
-										//VALIDACION DE USUARIO EN LA SUCURSAL ELECTRONICA//
+						//VALIDACION DE USUARIO EN LA SUCURSAL ELECTRONICA//
 	
 	cout<<"\t\tLe damos la bienvenida a la sucursal electronica. \nPor seguridad se recomienda que no ingrese su clave en presencias de terceros.\n"<<endl;
 	
